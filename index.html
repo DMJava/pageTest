@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,68 @@
     <link rel="stylesheet" href="sass/normalize.css">
     <link rel="stylesheet" href="sass/style.css">
 </head>
+
 <body>
 
     <header class="header">
+        <div class="menu ">
+            <div class="container">
+                <nav class="menu__nav">
+                    <a href="#" class="menu__link">Main</a>
+                    <a href="#" class="menu__link">Products</a>
+                    <a href="#" class="menu__link">Catalog</a>
+                    <a href="#" class="menu__link">Samples</a>
+                    <a href="#" class="menu__link">Images</a>
+                    <a href="#" class="menu__link">Cost</a>
+                    <a href="#" class="menu__link">About</a>
+                </nav>
+                <!-- /.menu__nav -->
+            </div>
+        </div>
         <div class="navbar">
             <div class="container">
-                <button class="menu-button">
-                    <span class="menu-button__line"></span>
-                    <span class="menu-button__line"></span>
-                    <span class="menu-button__line"></span>
-                </button>
-                <!-- /.logo navbar__logo -->
-                <div class="logo navbar__logo">
-                    <strong class="logo__text">Фабрика Фабрика</strong>
-                    <span class="logo__description">Ведущий производитель Фабрика</span>
+                <div class="navbar-wrap">
+                    <button class="menu-button navbar__menu-button">
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                    </button>
+                    <!-- /.logo navbar__logo -->
+                    <div class="logo navbar__logo">
+                        <strong class="logo__text">Фабрика Фабрика</strong>
+                        <span class="logo__description">Ведущий производитель Фабрика</span>
+                    </div>
+                    <div class="navbar__mobile">
+                        <a class="navbar__phone" href="tel:+3806666666">+3806666666</a>
+                        <span class="navbar__work-time navbar__small-text">без выходных</span>
+                    </div>
+                    <div class="navbar__landline">
+                        <a class="navbar__phone" href="tel:+3809999999">+3809999999</a>
+                        <a class="navbar__email navbar__small-text" href="mailto:lala@mail.com">lala@mail.com</a>
+                    </div>
+                    <button class="button-o navbar__button">Получть консультацию</button>
                 </div>
-                <div class="navbar__mobile">
-                    <a class="navbar__phone" href="tel:+3806666666">+3806666666</a>
-                    <span class="navbar__work-time">без выходных</span>
-                </div>
-                <div class="navbar__landline">
-                    <a class="navbar__phone" href="tel:+3809999999">+3809999999</a>
-                    <a class="navbar__email" href="mailto:lala@mail.com">lala@mail.com</a>
-                </div>
-                <button class="button-o navbar__button">Получть консультацию</button>
+                <!-- /.navbar-wrap -->
+
             </div>
-            <!-- /.container -->  
+            <!-- /.container -->
         </div>
         <!-- /.navbar -->
-        <div class="hero"></div>
+        <div class="hero">
+            <div class="container">
+                <h1 class="hero__title">
+                    Minimum prices here
+                </h1>
+                <span class="hero__subtitle">
+                    About 3000K
+                </span>
+                <button class="button hero__button">Order Item</button>
+            </div>
+        </div>
         <!-- /.hero -->
     </header>
     <!-- /.header -->
-    
+
 </body>
+
 </html>
