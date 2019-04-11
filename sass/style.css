@@ -128,11 +128,13 @@ body {
   transition: 0.2s;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
+  opacity: 0;
 }
 
 .menu_active {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  opacity: 1;
 }
 
 .menu__nav {
@@ -229,6 +231,7 @@ body {
   background-size: cover;
   padding-top: 132px;
   padding-bottom: 100px;
+  margin-top: 80px;
 }
 
 .hero__title {
