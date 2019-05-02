@@ -1,0 +1,50 @@
+.catalog
+    background-color: #f5f6f8
+    &-block
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__card
+        margin-bottom: 50px
+    &-card
+        max-width: 570px
+        position: relative
+        &__arrow
+            margin-bottom: -4px
+        &__image
+            height: 340px
+            width: 410px
+            display: flex
+        &__buttons
+            position: absolute
+            bottom: 0
+            right: 0
+        &__button
+            font-size: 11px
+            border: none
+            text-transform: uppercase
+            padding: 10px
+            height: 30px
+        &__tag
+            position: absolute
+            font-size: 14px
+            text-transform: uppercase
+            padding: 10px
+            color: #ffffff
+            background-color: rgba($primary, 0.6)
+            top: 5px
+            left: 5px
+    &__link
+        text-align: center
+        margin-top: 60px
+    &__description
+        display: block
+    &__link-more
+        display: inline-block
+        margin-bottom: 24px
+@media (max-width: 1199px)
+    .catalog
+        &-block
+            justify-content: center
+        &-card
+            max-width: 470px
