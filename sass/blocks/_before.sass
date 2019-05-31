@@ -1,0 +1,23 @@
+.before
+    &-slider
+        &-wrap
+            position: relative
+            max-width: 640px
+            margin: auto
+        &-arrows
+            position: absolute
+            top: 50%
+            // z-index: -1
+            transform: translateY(-100%)
+            width: 100%
+            display: flex
+            justify-content: space-between
+.arrow
+    background-color: transparent
+    border: none
+    &:focus
+        outline: none
+    &-left
+        transform: translateX(-120%)
+    &-right
+        transform: translateX(120%)

@@ -9,6 +9,11 @@
     &-card
         max-width: 570px
         position: relative
+        &:hover
+            .catalog-card__buttons
+                opacity: 1
+                transform: translateY(0)
+                overflow-y: hidden
         &__arrow
             margin-bottom: -4px
         &__image
@@ -19,6 +24,9 @@
             position: absolute
             bottom: 0
             right: 0
+            opacity: 0
+            transition: 0.2s
+            transform: translateY(100%)
         &__button
             font-size: 11px
             border: none
